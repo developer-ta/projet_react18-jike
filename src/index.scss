@@ -1,0 +1,12 @@
+body {
+  p::-moz-selection {
+    color: red;
+    font-size: 16px;
+    
+  }
+  div,p::selection {
+    color: red;
+    font-size: 16px;
+    
+  }
+}
